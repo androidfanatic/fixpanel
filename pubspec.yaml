@@ -1,0 +1,18 @@
+name: fixpanel
+description: Flutter plus Mixpanel - a REST api wrapper for Mixpanel
+version: 0.0.1
+author:
+homepage:
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.2
+  package_info: ^0.4.3
+  device_info: ^0.4.2+7
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
