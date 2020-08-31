@@ -2,7 +2,6 @@ library fixpanel;
 
 import 'dart:io';
 import 'dart:convert';
-import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:package_info/package_info.dart';
 import 'package:device_info/device_info.dart';
