@@ -50,12 +50,12 @@ class FixPanel {
     }
   }
 
-  track(String eventName, Map properties) {
+  track(String eventName, Map<String, dynamic> properties) {
     properties['token'] = _token;
     send('/track', {'event': eventName, 'properties': properties});
   }
 
-  send(String endpoint, Map data) async {
+  send(String endpoint, Map<String, dynamic> data) async {
     data['token'] = _token;
     await http
         .get(Uri(scheme: scheme, host: host, path: endpoint, queryParameters: {
