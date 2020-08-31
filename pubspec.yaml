@@ -1,8 +1,7 @@
 name: fixpanel
 description: Flutter plus Mixpanel - a REST api wrapper for Mixpanel
+repository: https://github.com/androidfanatic/fixpanel
 version: 0.0.1
-author:
-homepage:
 environment:
   sdk: ">=2.7.0 <3.0.0"
   flutter: ">=1.17.0 <2.0.0"
