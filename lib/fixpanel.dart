@@ -58,10 +58,9 @@ class FixPanel {
 
   send(String endpoint, Map data) async {
     data['token'] = _token;
-    http.Response response = await http
+    await http
         .get(Uri(scheme: scheme, host: host, path: endpoint, queryParameters: {
       'data': base64Url.encode(utf8.encode(json.encode(data))),
     }));
-    debugPrint('statusCode: ${response.statusCode}; body: ${response.body}');
   }
 }
